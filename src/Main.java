@@ -1,19 +1,37 @@
 public class Main {
     public static void main(String[] args) {
 
-       Coche miCoche = new Coche();
-       miCoche.PonerPuerta();
-        miCoche.PonerPuerta();
-        miCoche.PonerPuerta();
+                 int NumeroIf = 2;
 
-        System.out.println(miCoche.puertas);
-    }
-}
+                if (NumeroIf >= 0 ) {
+                    System.out.println("positive");
+                 } else if (NumeroIf == 0) {
+                    System.out.println("igual a 0");
+                 } else {
+                   System.out.println("negative");
+                }
 
-class Coche {
-    public int puertas = 0;
 
-    public void PonerPuerta() {
-        this.puertas++;
-    };
-}
+                int numeroWhile = 0;
+
+                while (numeroWhile < 3) {
+
+                    System.out.println(numeroWhile);
+
+                    numeroWhile++;
+                };
+
+                do {
+                    System.out.println(numeroWhile);
+                    numeroWhile++;
+                }
+                while(numeroWhile < 3);
+
+
+            }
+
+
+        }
+
+
+
